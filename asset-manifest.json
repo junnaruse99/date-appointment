@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/data-appointment/static/css/main.e41b0abc.chunk.css",
+    "main.js": "/data-appointment/static/js/main.eb6ce5eb.chunk.js",
+    "main.js.map": "/data-appointment/static/js/main.eb6ce5eb.chunk.js.map",
+    "runtime-main.js": "/data-appointment/static/js/runtime-main.ad894cfb.js",
+    "runtime-main.js.map": "/data-appointment/static/js/runtime-main.ad894cfb.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/data-appointment/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.52f134b9.chunk.js": "/data-appointment/static/js/2.52f134b9.chunk.js",
+    "static/js/2.52f134b9.chunk.js.map": "/data-appointment/static/js/2.52f134b9.chunk.js.map",
+    "static/js/3.73e425b3.chunk.js": "/data-appointment/static/js/3.73e425b3.chunk.js",
+    "static/js/3.73e425b3.chunk.js.map": "/data-appointment/static/js/3.73e425b3.chunk.js.map",
+    "index.html": "/data-appointment/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/data-appointment/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.e41b0abc.chunk.css.map": "/data-appointment/static/css/main.e41b0abc.chunk.css.map",
+    "static/js/2.52f134b9.chunk.js.LICENSE.txt": "/data-appointment/static/js/2.52f134b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad894cfb.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.52f134b9.chunk.js",
+    "static/css/main.e41b0abc.chunk.css",
+    "static/js/main.eb6ce5eb.chunk.js"
+  ]
+}
