@@ -12,17 +12,11 @@ function App() {
   }
 
   // Array of appointments
-  const [ appointments, setAppointments ] = useState([]);
+  const [ appointments, setAppointments ] = useState(initialAppointments);
 
   // Use effect for run functions when there is a state change
   useEffect( () => {
-    let initialAppointments = JSON.parse(localStorage.getItem('appointments'));
-    if(initialAppointments) {
-      localStorage.setItem('appointments', JSON.stringify(appointments))
-    }
-    else {
-      localStorage.setItem('appointments', JSON.stringify([]))
-    }
+    localStorage.setItem('appointments', JSON.stringify(appointments));
   }, [appointments] );
   // Inside array is the element to look for in case of state change
 
