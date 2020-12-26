@@ -16,7 +16,7 @@ const Appointment = ({ appointment, deleteAppointment }) => (
     </div>
 );
 
-Appointment.PropTypes = {
+Appointment.propTypes = {
     appointment: PropTypes.object.isRequired,
     deleteAppointment: PropTypes.func.isRequired
 }
