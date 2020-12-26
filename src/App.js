@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Form from './components/Form';
 import Appointment from './components/Appointment';
+import PropTypes from 'prop-types';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
   // Use effect for run functions when there is a state change
   useEffect( () => {
+    let initialAppointments = JSON.parse(localStorage.getItem('appointments'));
     if(initialAppointments) {
       localStorage.setItem('appointments', JSON.stringify(appointments))
     }
@@ -60,6 +62,10 @@ function App() {
       </div>
     </>
   );
+}
+
+Form.propTypes = {
+  creatAppointment: PropTypes.func.isRequired
 }
 
 export default App;
